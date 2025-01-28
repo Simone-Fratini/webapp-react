@@ -27,6 +27,7 @@ export default function MainComponent() {
     if(isLoading) return <Loader/>
 
     return (
+        
         <section className="mx-16 my-4">
             <motion.div
                 initial="hidden"
