@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { FaBook } from "react-icons/fa";
+import { GiFilmProjector } from "react-icons/gi";
 
 function HeroPage() {
 
@@ -43,15 +43,15 @@ function HeroPage() {
         variants={titleSubtitleAnimation}
         initial="hidden"
         animate="visible">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Boolean Book Library</h1>
-          <p className="text-lg mb-6">Discover thousands of books to inspire, educate, and entertain.</p>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Boolean Film Library</h1>
+          <p className="text-lg mb-6">Discover thousands of films to inspire, educate, and entertain.</p>
           <MotionLink
             initial="initial"
             whileHover="hover"
-            animate="rest" to="/home" className=" cursor-pointer flex items-center justify-center gap-2 w-1/2 md:w-1/3 lg:w-1/3  py-2 text-sm md:text-lg font-medium bg-blue-600 hover:bg-blue-700 text-white rounded-lg shadow-lg transition duration-300 mx-auto overflow-hidden">
+            animate="rest" to="/home" className=" cursor-pointer flex items-center justify-center gap-2 w-1/2 md:w-1/3 lg:w-1/3  py-2 text-sm md:text-lg font-medium bg-gray-700 hover:bg-blue-700 text-white rounded-lg shadow-lg transition duration-300 mx-auto overflow-hidden">
           <motion.span 
             variants={iconVariants}
-            transition={{ duration: 0.4 }}><FaBook /></motion.span>
+            transition={{ duration: 0.4 }}><GiFilmProjector size={27} /></motion.span>
           <motion.span 
             variants={textVariants}
             transition={{ duration: 0.4 }}>Catalog</motion.span>

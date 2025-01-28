@@ -3,7 +3,7 @@ import "./App.css";
 import DefaultLayout from "./pages/DefaultLayout";
 import HomePage from "./pages/Homepage";
 import About from "./pages/About";
-import Bookdetail from "./pages/Bookdetail";
+import Bookdetail from "./pages/Filmdetail";
 import HeroPage from "./pages/HeroPage";
 import ErrorPage from "./pages/ErrorPage";
 
